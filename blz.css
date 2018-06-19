@@ -1,0 +1,168 @@
+:root{
+    --barBack: linear-gradient(
+        rgba(2, 166, 193, 0.45), 
+        rgba(2, 166, 193, 0.45)
+      ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
+    --cruBack: linear-gradient(
+        rgba(12, 68, 127, 0.45), 
+        rgba(12, 68, 127, 0.45)
+        ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
+    --dhBack: linear-gradient(
+        rgba(54, 98, 21, 0.45), 
+        rgba(54, 98, 21, 0.45)
+        ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
+    --monkBack: linear-gradient(
+        rgba(201, 190, 112, 0.45), 
+        rgba(201, 190, 112, 0.45)
+        ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
+    --necBack: linear-gradient(
+        rgba(24, 197, 197, 0.45), 
+        rgba(24, 197, 197, 0.45)
+        ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
+    --wdBack: linear-gradient(
+        rgba(25, 62, 19, 0.45), 
+        rgba(25, 62, 19, 0.45)
+        ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
+    --wizBack: linear-gradient(
+        rgba(47, 76, 176, 0.45), 
+        rgba(47, 76, 176, 0.45)
+        ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
+}
+
+body {
+    padding: 0 15vw 0 15vw;
+    /* background-color: #02A6C1; */
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=75318'), auto;
+    background: linear-gradient(
+        rgba(2, 166, 193, 0.45), 
+        rgba(2, 166, 193, 0.45)
+      ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
+}
+
+.classSelectDiv {
+    padding: 2vh 0 2vh 0;
+}
+
+.classSelectBanner {
+    list-style-type: none;
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+}
+
+.classSelectDiv:hover {
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=75320'), auto; 
+}
+
+.classSelectButton {
+    float: left;
+    width: 8.5vw;
+    border: black solid 2px;
+    text-align: center;
+    background-color: white;
+}
+
+.skillsHeader {
+    width: 100%;
+    margin: 3vh 0 0 0;
+    /* height: 25vh; */
+    padding: 0 0 2vh 0;    
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#className {
+    margin: 0 0 2vh 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    background-color: #c11d02;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+#classIcon {
+    float: left;
+    display: inline;
+    height: 10em;
+    width: 10em;
+    margin: 0 2vw 0 1vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#classBio {
+    display: inline;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#classResource {
+    float: right;
+    display: inline;
+    height: 10em;
+    width: 10em;
+    margin: 0 1vw 0 2vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.skillsHeading {
+    font-family: 'MedievalSharp', cursive;
+    background-color: white;
+    color: black;
+    border-radius:5px 5px 0 0;
+    padding: 0 0 0 0.5vw;
+    margin: 0 0 2vh 0;
+}
+
+.skillDesc {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.skillPic {
+    float: left;
+    margin: 0 10px 0 10px;
+    padding: 0;
+}
+
+.skillsDiv {
+    padding: 0 0 1vh 0;
+    margin: 5vh 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: #c11d02;
+}
+
+#barbarianButton {
+    background-color: #c11d02;
+}
+
+#crusaderButton {
+    background-color: #7F470C;
+}
+
+#demonHunterButton {
+    background-color: #411562;
+}
+
+#monkButton {
+    background-color: #707bc9;
+}
+
+#necromancerButton {
+    background-color: #c51818;
+}
+
+#witchDoctorButton {
+    background-color: #38133E;
+}
+
+#wizardButton {
+    background-color: #B0932F;
+}

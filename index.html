@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blizzard API Project</title>
+    <link rel="stylesheet" href="blz.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <!-- this code creates the class selection header at the top of page -->
+    <div class="classSelectDiv">
+        <ul class="classSelectBanner">
+            <li class="classSelectButton" id="barbarianButton">Barbarian</li>
+            <li class="classSelectButton" id='crusaderButton'>Crusader</li>
+            <li class="classSelectButton" id='demonHunterButton'>Demon Hunter</li>
+            <li class="classSelectButton" id='monkButton'>Monk</li>
+            <li class="classSelectButton" id='necromancerButton'>Necromancer</li>
+            <li class="classSelectButton" id='witchDoctorButton'>Witch Doctor</li>
+            <li class="classSelectButton" id='wizardButton'>Wizard</li>
+        </ul>
+    </div>
+
+    <!-- this code sets the profile picture, name, and resource gif of the selected character class -->
+    <!-- this code defaults to the barbarian information -->
+    <div class="skillsHeader">
+        <h1 id="className">The Barbarian</h1>
+        <img src="./assets/barbarianIcon.jpg" alt="Profile Picture" id="classIcon">
+        <img src="./assets/Barbarian-Fury-Resource.gif" alt="Resource Type" id="classResource">       
+        <p id="classBio">The barbarian is able to whirlwind through crowds, cleave through swarms, leap across crags, crush opponents upon landing, and grapple-snap enemies into melee range. The resource used by the barbarian is fury, which is generated through attacking enemies, getting attacked by enemies, and using certain abilities. Fury is used for the barbarian's strongest abilities and degenerates over time.</p> 
+    </div>
+
+    <div id="skillsBucket"></div>
+    
+    <!-- <img src="" alt="toweringShieldIcon" id="toweringShield"> -->
+    <script src="blz.js" type="text/javascript"></script>
+</body>
+</html>
