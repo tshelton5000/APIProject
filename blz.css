@@ -28,7 +28,6 @@
         rgba(47, 76, 176, 0.45)
         ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
 }
-
 body {
     padding: 0 15vw 0 15vw;
     /* background-color: #02A6C1; */
@@ -37,6 +36,30 @@ body {
         rgba(2, 166, 193, 0.45), 
         rgba(2, 166, 193, 0.45)
       ), url('./assets/46098525-old-gray-stone-wall-seamless-background-photo-texture.jpg');
+}
+
+.charAvaDiv {
+    position: fixed;
+    z-index: 1;
+    background-color: none;
+    width: 14vw;
+    height: 50vh;
+    bottom: 0;
+    left: 0;
+}
+
+#charAvaHeading {
+    text-align: center;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#charAvatar {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 3vw;
+    height: 40vh;
 }
 
 .classSelectDiv {
